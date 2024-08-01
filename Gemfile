@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.5.5'
+gem 'rexml'
+gem 'webrick'
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-redirect-from'
+gem 'github-pages' , '~> 229'
+

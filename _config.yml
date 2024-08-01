@@ -1,6 +1,9 @@
 # Build settings
 markdown: kramdown
 
+url: ""
+baseurl:
+
 exclude:
   - vendor
 
@@ -8,8 +11,3 @@ sass:
   sass_dir: _sass
   style: compressed
 
-plugins:
-  - jekyll-redirect-from
-
-whitelist:
-  - jekyll-redirect-from
